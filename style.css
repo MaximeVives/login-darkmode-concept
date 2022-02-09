@@ -33,6 +33,15 @@
     --header-image-size: 80px
 }
 
+.dark{
+    --logo-color: invert(0.13); /* correspond à du noir */
+    --main-color: #41686A;
+    --text-color-dark: #C6C6C6;
+    --text-color-light: #212121;
+
+    --text-color-black: #f0f0f0;
+}
+
 body{
     background-color: var(--main-color);
     font-size: 1rem;
@@ -272,21 +281,21 @@ header select option{
 }
 
 /*============== MODE SOMBRE =================*/
-@media (prefers-color-scheme: dark) {
-    :root{
-        --logo-color: invert(0.13); /* correspond à du noir */
-        /*--main-color: #FEFD93;*/
-        /*--main-color: #D3D0A6;*/
-        --main-color: #41686A;
-        --text-color-dark: #C6C6C6;
-        --text-color-light: #212121;
+/*@media (prefers-color-scheme: dark) {*/
+/*    :root{*/
+/*        --logo-color: invert(0.13); !* correspond à du noir *!*/
+/*        !*--main-color: #FEFD93;*!*/
+/*        !*--main-color: #D3D0A6;*!*/
+/*        --main-color: #41686A;*/
+/*        --text-color-dark: #C6C6C6;*/
+/*        --text-color-light: #212121;*/
 
-        --text-color-black: #f0f0f0;
+/*        --text-color-black: #f0f0f0;*/
 
-        --boder-radius: 30px;
+/*        --boder-radius: 30px;*/
 
-        --header-padding-x: 20px;
-        --header-padding-y: 40px;
-        --header-image-size: 80px
-    }
-}
+/*        --header-padding-x: 20px;*/
+/*        --header-padding-y: 40px;*/
+/*        --header-image-size: 80px*/
+/*    }*/
+/*}*/
