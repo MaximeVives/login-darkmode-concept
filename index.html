@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI-Signup</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+</head>
+<body>
+<main>
+    <div class="main-hero">
+        <header>
+            <img src="img/logo.png" alt="logo">
+            <div class="langage">
+                <!--Put a :after for the arrow-down-->
+                <select name="pets" id="langage-select">
+                    <option value="english">English (UK)</option>
+                    <option value="french">French (FR)</option>
+                </select>
+            </div>
+        </header>
+        <div class="main-content">
+            <div class="left-content">
+                <p>Find 3D Objects, Mockups <br>and Illustrations here.</p>
+            </div>
+            <div class="right-content">
+                <div class="form">
+                    <h2>Create Account</h2>
+                    <div class="sign-with">
+                        <div class="social">
+                            <p><img src="img/google.png" alt="google logo">Sign up with Google</p>
+                        </div>
+                        <div class="social">
+                            <p><img src="img/facebook.png" alt="facebook logo"> Sign up with Facebook</p>
+                        </div>
+                    </div>
+                    <div class="separate">
+                        <span>- OR -</span>
+                    </div>
+
+                    <form action="POST">
+                        <input type="text" name="fullname" id="name" placeholder="Fullname">
+                        <input type="email" name="email" id="email" placeholder="Email Address">
+                        <input type="password" name="password" id="password" placeholder="Password">
+
+                        <input type="button" value="Create Account">
+
+                        <div class="join-login">
+                            <p>Already have an account ? <a href="/login">Login</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div id="hero-img"></div>
+</main>
+</body>
+</html>
