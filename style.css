@@ -39,6 +39,11 @@ body{
     font-family: "ArcoPerpetuo-Regular", sans-serif;
 }
 
+a{
+    color: var(--main-color);
+    text-decoration: none;
+}
+
 h2, input[type='button']{
     font-family: "Overpass-Black", sans-serif;
     color: var(--text-color-black);
@@ -234,11 +239,6 @@ form input[type='button']{
     display: flex;
     justify-content: left;
     color: var(--text-color-black);
-}
-
-.form .join-login a{
-    color: var(--main-color);
-    text-decoration: none;
 }
 
 header select{
